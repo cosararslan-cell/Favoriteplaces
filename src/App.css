@@ -182,3 +182,28 @@
     border-right-color: var(--border);
   }
 }
+/* Mobile bottom nav force fix */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 120px !important;
+    overflow-x: hidden !important;
+  }
+
+  #root {
+    min-height: 100dvh !important;
+    padding-bottom: 120px !important;
+  }
+
+  nav,
+  .nav,
+  .navbar,
+  .bottom-nav,
+  .tabbar,
+  .tabs,
+  [class*="nav"],
+  [class*="bottom"],
+  [class*="tab"] {
+    bottom: max(16px, env(safe-area-inset-bottom)) !important;
+    z-index: 99999 !important;
+  }
+}
