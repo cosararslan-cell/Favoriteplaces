@@ -342,7 +342,7 @@ body,html{height:100%;overflow:hidden}
 .hdr-ai{padding:0 14px;height:36px;border-radius:10px;background:var(--grad);border:none;color:#fff;font-family:inherit;font-size:12px;font-weight:700;cursor:pointer;box-shadow:0 4px 16px rgba(224,64,251,.4);white-space:nowrap;transition:opacity .15s}
 .hdr-ai:hover{opacity:.88}
 
-.bnav{background:var(--s1);border-top:1px solid var(--border);display:flex;height:56px;flex-shrink:0;z-index:300;padding:0 4px}
+.bnav{background:var(--s1);border-top:1px solid var(--border);display:flex;height:70px;flex-shrink:0;z-index:300;padding-bottom: calc(env(safe-area-inset-bottom) + 4px)}
 .bn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;padding:6px 2px;border-radius:10px;border:none;background:transparent;color:var(--muted);font-family:inherit;transition:all .15s}
 .bn:hover{background:var(--s2)}
 .bn.on{color:var(--acc2)}
